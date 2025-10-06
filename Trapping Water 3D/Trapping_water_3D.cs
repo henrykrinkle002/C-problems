@@ -19,7 +19,7 @@ public class Solution {
         int water = 0;
         int[] dirs = { 1, 0, -1, 0, 1 };
         while (pq.Count > 0) {
-            var cur = pq.Dequeue();
+            var cur = pq.Dequeue(); #remove the existing height and replace with mx height
             int x = cur.X, y = cur.Y, h = cur.H;
 
             for (int d = 0; d < 4; d++) {
