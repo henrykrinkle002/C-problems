@@ -1,0 +1,14 @@
+loop through the storm heights
+As each loop represents the storm levels, 
+	Create an array/List indicating which all heights can be considered at this storm level
+	sort the saved array to ensure
+	Now loop through the saved array of heights
+	find the difference between i and i-1 in the saved heights and compare that with maxJump value so
+		if the distance is less than the maxJump 
+			find the square of the distance to the towers (given)
+			and find the culminative value
+
+	check if the cul value is inside maxEnergy 
+	if so save the storm level value for now, 
+	after looping through all the storm values
+return whatever is the storm level at the end of the loop
